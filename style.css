@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+        background: url("sun.gif") repeat;
+        background-size: cover;
+}
+div{
+        background: rgba(16, 166, 86, .40);
+        color: pink;   
+        font-family: 'Kaushan Script', cursive;
+        letter-spacing: 10px;    
+        word-spacing: 50px;    
+}
+.greenBackground{
+        background: #F6F68B;
+        color: rgb(14, 96, 173);
+}
+#sampleId{
+        color: black;
+}
+.sampleBox{
+        background: red;
+        margin: 0px 0px 10px 0px;
+        padding: 10px 10px 10px 10px;
+        border: 20px #F6F68B double;
+        -webkit-box-shadow: -20px 31px 28px 19px rgba(0,0,0,0.73);
+        -moz-box-shadow: -20px 31px 28px 19px rgba(0,0,0,0.73);
+        box-shadow: -20px 31px 28px 19px rgba(0,0,0,0.73);
+        font-size: 50px;
+        font-weight: bolder;
+        /* comment: bold, bolder, light, normal */
+        font-style: italic;
+        text-transform: uppercase;
+        /* comment: lowercase, uppercase, capitalize */
+        text-decoration: line-through;
+        text-align: center;
+        /* comment: center, left, right */
+}
+.solid{
+        background: red;
+        margin: 0px 0px 10px 0px;
+        padding: 10px 10px 10px 10px;
+        border: 10px #9766f3 solid ;
+}
+.dotted{
+        background: red;
+        margin: 0px 0px 10px 0px;
+        padding: 10px 10px 10px 10px;
+        border: 10px #9766f3 dotted;
+}
+.dashed{
+        background: red;
+        margin: 0px 0px 10px 0px;
+        padding: 10px 10px 10px 10px;
+        border: 10px #f1f366 dashed;
+}
+.groove{
+        background: red;
+        margin: 0px 0px 10px 0px;
+        padding: 10px 10px 10px 10px;
+        border: 10px #f1f366 groove;
+}
+.ridge{
+        background: red;
+        margin: 0px 0px 10px 0px;
+        padding: 10px 10px 10px 10px;
+        border: 10px #66f39c ridge;
+}
+.overflowSample{
+        width: 1345px;
+        height: 300px;
+        overflow: scroll;   
+        text-indent: 30px;  
+}
